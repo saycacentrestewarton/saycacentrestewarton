@@ -1,0 +1,149 @@
+:root {
+  --clr-mode: 'light';
+  --clr-dark: #07153d;
+  --clr-dark-alpha: rgba(0, 0, 0, 0.1);
+  --clr-light: #f9f5f0;
+  --clr-light-alpha: rgba(255, 255, 255, 0.9);
+  --icon-sun: url('data:image/svg+xml,\
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12,22c5.523,0 10,-4.477 10,-10c0,-5.523 -4.477,-10 -10,-10c-5.523,0 -10,4.477 -10,10c0,5.523 4.477,10 10,10Zm0,-1.5l0,-17c4.694,0 8.5,3.806 8.5,8.5c0,4.694 -3.806,8.5 -8.5,8.5Z" /></svg>');
+  --icon-sun-filter: invert(100%) sepia(8%) saturate(265%) hue-rotate(178deg) brightness(117%) contrast(87%);
+  --icon-moon: url('data:image/svg+xml,\
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12,22c-5.523,0 -10,-4.477 -10,-10c0,-5.523 4.477,-10 10,-10c5.523,0 10,4.477 10,10c0,5.523 -4.477,10 -10,10Zm0,-1.5l0,-17c-4.694,0 -8.5,3.806 -8.5,8.5c0,4.694 3.806,8.5 8.5,8.5Z" /></svg>');
+  --icon-moon-filter: invert(14%) sepia(30%) saturate(4513%) hue-rotate(234deg) brightness(89%) contrast(102%);
+  --btn-icon: var(--icon-moon);
+  --btn-icon-filter: var(--icon-moon-filter);
+  --btn-bkgd: var(--clr-dark);
+  --btn-clr: #444;
+  --border-clr: var(--clr-dark-alpha);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --clr-mode: 'dark';
+  }
+
+  :root:not([data-user-color-scheme]) {
+  --btn-icon-filter: var(--icon-sun-filter);
+  --btn-bkgd: var(--clr-light-alpha);
+  --clr-bizcard: #010717;
+  --clr-footer: #010717;
+  --clr-gratis: #010717;
+  --clr-facilities: #010717;
+  --clr-personnel: #fdd406;
+  --btn-clr: var(--clr-light);
+  --border-clr: var(--clr-light-alpha);
+  --btn-icon: var(--icon-sun);
+  --clr-site-bkgd: var(--clr-dark);
+  --clr-calendar: #e0e7ec;
+  --clr-big-intro: #fdd406;
+  --clr-sub-heading: #fdd406;
+  --clr-heading: #fdd406;
+  --clr-logo: #fdd406;
+  --clr-tagline: #959595;
+  --clr-hilight: #010717;
+  --clr-hilight-text: #cfa46e;
+  --clr-header-hilight: gold;
+  --clr-blockquote: #13289c;
+  --clr-text-blockquote: #d4c8ba;
+  --clr-ul: #644620;
+  --clr-image-brdr: #f7B952;
+  --clr-link: #fff;
+  --clr-text: #fff;
+  --clr-figcaption: #fdd406;
+  --clr-hr: #a58c6d52;
+  --clr-lott: #fff;
+  --clr-picto: #fdd406;
+  --clr-one: var(--clr-dark);
+  --clr-two: #d3bb9e;
+  --clr-three: #010717;
+  --clr-pagination: rgba(7,21,61, .7);
+  --clr-work-hvr-bkgd: rgba(0, 0, 0, 0.75);
+  --work-static-opacity: rgba(0,0,0, .4);
+  --clr-work-fig-text: var(--clr-light);
+  --clr-work-fig-text-hvr: var(--clr-light);
+  --clr-tactile: rgba(64, 60, 96, 0.60);
+  --filter-img-brightness: brightness(.8);
+  }
+}
+
+[data-user-color-scheme="dark"] {
+  --btn-icon-filter: var(--icon-sun-filter);
+  --btn-bkgd: var(--clr-light-alpha);
+  --clr-bizcard: #010717;
+  --clr-footer: #010717;
+  --clr-gratis: #010717;
+  --clr-facilities: #010717;
+  --clr-personnel: #fdd406;
+  --btn-clr: var(--clr-light);
+  --border-clr: var(--clr-light-alpha);
+  --btn-icon: var(--icon-sun);
+  --clr-site-bkgd: var(--clr-dark);
+  --clr-calendar: #e0e7ec;
+  --clr-big-intro: #fdd406;
+  --clr-sub-heading: #fdd406;
+  --clr-heading: #fdd406;
+  --clr-logo: #fdd406;
+  --clr-tagline: #959595;
+  --clr-hilight: #010717;
+  --clr-hilight-text: #cfa46e;
+  --clr-header-hilight: gold;
+  --clr-blockquote: #13289c;
+  --clr-text-blockquote: #d4c8ba;
+  --clr-ul: #644620;
+  --clr-image-brdr: #f7B952;
+  --clr-link: #fff;
+  --clr-text: #fff;
+  --clr-figcaption: #fdd406;
+  --clr-hr: #a58c6d52;
+  --clr-lott: #fff;
+  --clr-picto: #fdd406;
+  --clr-one: var(--clr-dark);
+  --clr-two: #d3bb9e;
+  --clr-three: #010717;
+  --clr-pagination: rgba(7,21,61, .7);
+  --clr-work-hvr-bkgd: rgba(0, 0, 0, 0.75);
+  --work-static-opacity: rgba(0,0,0, .4);
+  --clr-work-fig-text: var(--clr-light);
+  --clr-work-fig-text-hvr: var(--clr-light);
+  --clr-tactile: rgba(64, 60, 96, 0.60);
+  --filter-img-brightness: brightness(.8);
+}
+
+/* No JS, no toggle component */
+.no-js .user-toggle {
+  display: none;
+}
+
+.toggle-button {
+  display: flex;
+  background: var(--btn-bkgd);
+  background: transparent;
+  color: var(--btn-clr);
+  border: none;
+  font: inherit;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.toggle-button__icon {
+  background: var(--btn-icon);
+  width: 1.2em;
+  height: 1.2em;
+  margin: 0 0 0 0;
+  filter: var(--btn-icon-filter);
+  transition: filter 500ms ease-in-out;
+  background-repeat: no-repeat;
+}
+
+/* Presentational styles */
+.visually-hidden {
+  display: block;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(1px);
+  white-space: nowrap;
+  position: absolute;
+}
