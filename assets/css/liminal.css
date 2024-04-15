@@ -799,7 +799,7 @@ blockquote:last-child {
 .home .plate-modular {padding: 20px;}
 .plate-modular {padding: 10px;}
 
-.whatson.autogrid {grid-gap: 3rem;}
+.whatson.autogrid {grid-gap: 3rem; margin-top: 2rem;}
 .whatson .plate-content {color: var(--clr-hilight-text); background-color: var(--clr-hilight); border-radius: 20px; font-family: Montserrat, Helvetica, Arial, sans-serif;}
 .whatson .plate-title, .whatson .plate-text {text-align: center;}
 
