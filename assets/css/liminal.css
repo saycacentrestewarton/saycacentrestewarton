@@ -277,6 +277,11 @@ h2.announcement {
   margin-bottom: 0;
 }
 
+.gratis-module h3 {
+  text-align: left;
+  color: var(--clr-two);
+}
+
 .gratis-module {
   border: 2px solid var(--clr-three);;
   border-radius: 20px;
@@ -291,13 +296,13 @@ h2.announcement {
 }
 
 
-.gratis-module em {
+.gratis-module h3 {
   display: block;
   padding-bottom: 20px;
 }
 
 @media all and (min-width: 50em) {
-.gratis-module em {text-align: center;
+.gratis-module h3 {text-align: center;
     }
 }
 
@@ -799,7 +804,7 @@ blockquote:last-child {
 .plate-modular {padding: 10px;}
 
 .whatson.autogrid {grid-gap: 3rem; margin-top: 2rem;}
-.whatson .plate-content {color: var(--clr-hilight-text); background-color: var(--clr-hilight); border-radius: 20px; font-family: Montserrat, Helvetica, Arial, sans-serif;}
+.whatson.autogrid li.plate.column, .whatson.autogrid a {border-radius: 20px; color: var(--clr-hilight-text); background-color: var(--clr-hilight); font-family: Montserrat, Helvetica, Arial, sans-serif;}
 .whatson .plate-title, .whatson .plate-text {text-align: center;}
 
 .div:nth-child(2n+1):first-child {font-size: 30rem;}
