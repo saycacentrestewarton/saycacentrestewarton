@@ -800,6 +800,17 @@ blockquote:last-child {
   font-family: Montserrat, Helvetica, Arial, sans-serif;
 }
 
+.home .plate-supplemental {
+  padding: .5rem;
+  font-size: 1em;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+}
+
+.home.plate-supplemental .btn {
+  display: inline;
+}
+
 .home .plate-modular {padding: 20px;}
 .plate-modular {padding: 10px;}
 
