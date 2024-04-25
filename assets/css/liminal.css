@@ -782,7 +782,7 @@ blockquote:last-child {
 }
 .group figure {margin: 0}
 
-.home.group {grid-template-columns: 1fr; margin-top: 3rem;}
+.home.group {grid-template-columns: 1fr; margin-top: 2rem;}
 .home.group.autogrid a {background-color: var(--clr-three); border-radius: 30px; border: 2px solid var(--clr-three);}
 
 .home {grid-gap: 1.5rem;}
@@ -807,8 +807,13 @@ blockquote:last-child {
   margin: 0 auto;
 }
 
-.home.plate-supplemental .btn {
-  display: inline;
+.home.plate-supplemental.wrap {
+margin-top: 2rem;
+}
+
+.home.plate-supplemental.wrap .btn {
+width: 60%;
+margin: 0 auto;
 }
 
 .home .plate-modular {padding: 20px;}
