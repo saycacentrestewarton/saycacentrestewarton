@@ -49,6 +49,8 @@
   --clr-image-brdr: #f7B952;
   --clr-link: #fff;
   --clr-text: #fff;
+  --clr-special-text: #d2443d;
+  --clr-special-text-hvr: #000;
   --clr-figcaption: #fdd406;
   --clr-hr: #a58c6d52;
   --clr-lott: #fff;
@@ -93,6 +95,8 @@
   --clr-image-brdr: #f7B952;
   --clr-link: #fff;
   --clr-text: #fff;
+  --clr-special-text: #d2443d;
+  --clr-special-text-hvr: #000;
   --clr-figcaption: #fdd406;
   --clr-hr: #a58c6d52;
   --clr-lott: #fff;
