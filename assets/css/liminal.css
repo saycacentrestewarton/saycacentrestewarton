@@ -1333,6 +1333,7 @@ body {
   padding: 4px;
   background-color: var(--clr-header-hilight);
   border-radius: 20px;
+  margin-bottom: 20px;
 }
 
 .header-image {
