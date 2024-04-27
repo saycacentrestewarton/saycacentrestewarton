@@ -1397,22 +1397,6 @@ body {
   background-size: 100%;
 }
 
-.logo:hover {
-    display: inline;
-  	background:
-    linear-gradient(
-    to bottom, var(--clr-link) 0%,
-    var(--clr-two) 100%);
-	background-position: 0 32px;
-	background-repeat: repeat-x;
-}
-
-@media all and (min-width: 30em) {
-  .logo:hover {
-	  background-position: 0 36px;
-  }
-}
-
 /* -- 3.2 Menu & Nav ----------------------------------- */
 
 .menu {
