@@ -646,16 +646,8 @@ blockquote:last-child {
 
 .special.btn {
   display: block;
-  padding: .6rem .8rem;
-  white-space: nowrap;
-  font-family: Montserrat, Helvetica, Arial, sans-serif;
-  font-size: 1rem;
-  font-size: clamp(.5rem, 3.5vw, .8rem);
-  font-weight: 700;
-  line-height: 1;
-  letter-spacing: inherit;
-  text-align: center;
   color: var(--clr-special-text);
+  letter-spacing: inherit;
   background: none;
   border: 0;
   border-radius: 0;
@@ -939,18 +931,6 @@ margin: 0 auto;
 .facet .plate-content p {
   margin: inherit;
 }
-/*.facet li:nth-child(2) {
-  grid-template-columns: 4fr 2fr;
-  background-color: var(--clr-one);
-}
-.facet li:nth-child(3) {
-  grid-template-columns: 4fr 2fr;
-  background-color: var(--clr-one);
-}
-.facet li:nth-child(4) {
-  grid-template-columns: 4fr 2fr;
-  background-color: var(--clr-one);
-}*/
 
 /* -- Grid (facet) median --------------------------- */
 @media screen and (min-width: 44em) {
