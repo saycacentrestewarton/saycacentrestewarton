@@ -223,11 +223,11 @@ a.gratis {
     font-family: Montserrat, Helvetica, Arial, sans-serif;
   }
 
-.gratis-links {column-count: 1;}
+.gratis-links, .facilities-module ul {column-count: 1;}
 
 @media all and (min-width: 44em) {
-    .gratis-links {column-count: 2;
-    }
+    .gratis-links, .facilities-module ul {column-count: 2;}
+    .facilities-module ul {column-gap: 80px;}
 }
 
 @media all and (min-width: 70em) {
