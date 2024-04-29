@@ -291,7 +291,12 @@ hr {
 ul.gratis-links li {
     margin-bottom: 2px;
     margin-left: 1em;
-    line-height: 1em
+    line-height: 1.1em;
+}
+
+.facilities-module li {
+    margin-bottom: 2px;
+    margin-left: 1em;
 }
 
 ul.day-times, ul.details-list, .facilities-module ul {font-size: .8rem}
