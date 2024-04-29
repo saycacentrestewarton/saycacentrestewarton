@@ -767,6 +767,10 @@ span.star {
   }
 }
 
+.announcement a {border: 2px solid var(--clr-hilight);}
+
+.announcement a:hover {border: 2px solid;}
+
 .announcement img {border: 0; border-radius: 10px;}
 
 .group {
@@ -782,12 +786,10 @@ span.star {
 .group-timeline figure {margin: 0;}
 
 @media screen and (min-width: 44em) {
-
-.group-timeline {
+	.group-timeline {
 	--gutter: .1rem;
 	--min: 1rem;
-}
-
+	}
 }
 
 .group img {
