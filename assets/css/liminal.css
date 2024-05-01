@@ -1733,8 +1733,9 @@ blockquote {
 	font-size: 3em;
 	}
 
-.plate svg:not(.attractor svg):not(.error svg) {width: 220px; height: 220px;}
+.plate svg:not(.attractor svg):not(.error svg):not(.home svg) {width: 220px; height: 220px;}
 .pagination-item svg {}
+.pagination-label {}
 
 a.kirby-logo, a.kirby-logo:hover, .map-pin {
 	width: 32px;
