@@ -142,7 +142,7 @@ p, ul, ol, figure, pre {
   margin: 0 0 1.5rem;
 }
 
-.announcement p.plate-text {
+.announcement .plate-text p:last-of-type {
   margin: 0 0 0rem;
 }
 
@@ -772,7 +772,7 @@ span.star {
   }
 }
 
-.announcement a {border: 2px solid var(--clr-hilight);}
+.announcement a {border: 2px solid var(--clr-three);}
 
 .announcement a:hover {border: 2px solid;}
 
@@ -839,7 +839,7 @@ margin: 0 auto;
 .plate-modular {padding: 10px;}
 
 .whatson.autogrid {grid-gap: 3rem; margin-top: 2rem;}
-.whatson.autogrid li.plate.column, .whatson.autogrid a {border-radius: 20px; color: var(--clr-hilight-text); background-color: var(--clr-hilight); font-family: Montserrat, Helvetica, Arial, sans-serif;}
+.whatson.autogrid li.plate.column, .whatson.autogrid a {border-radius: 20px; color: var(--clr-hilight-text); background-color: var(--clr-three); font-family: Montserrat, Helvetica, Arial, sans-serif;}
 .whatson .plate-title, .whatson .plate-text {text-align: center;}
 
 .div:nth-child(2n+1):first-child {font-size: 30rem;}
@@ -1646,7 +1646,7 @@ a.kirby-logo, a.kirby-logo:hover, .map-pin {
 }
 
 .announcement .plate-title {
-  margin: .5em 0;
+  margin: 0 0 .5em 0;
 }
 
 .plate-tagline {
