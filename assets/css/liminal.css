@@ -774,7 +774,7 @@ span.star {
 
 .announcement a {border: 2px solid var(--clr-three);}
 
-.announcement a:hover {border: 2px solid;}
+.announcement a:hover {border: 2px solid; transition: all .3s;}
 
 .announcement img {border: 0; border-radius: 10px;}
 
