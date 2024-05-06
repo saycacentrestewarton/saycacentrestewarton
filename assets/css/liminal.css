@@ -1410,7 +1410,7 @@ a.footer-email:hover,
 
 a.footer-tel:hover {background-position: 0 25px;}
 .autogrid .work-grid-title {color: var(--clr-text);}
-.autogrid .work-grid-image:hover, .lightbox a:hover {filter: brightness(0.60); transition: all .3s;}
+.autogrid .work-grid-image:hover, .lightbox img:hover {filter: brightness(0.60); transition: all .3s;}
 .lightbox figure a {background: none;}
 
 .menu-item.is-active, .footer-privacy.is-active a {
