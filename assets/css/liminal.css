@@ -767,12 +767,12 @@ span.star {
 
 .autogrid img:not(.announcement img) {border: 2px solid var(--clr-two); border-radius: 10px;}
 .autogrid img:hover:not(.announcement img):not(.home img) {border: 2px solid var(--clr-three);}
-.work-grid-item:has(figcaption:hover) img {border: 2px solid var(--clr-three); brightness(0.60); transition: all .3s;}
+.work-grid-item:has(figcaption:hover) img {border: 2px solid var(--clr-three); filter: brightness(0.60); transition: all .3s;}
 
 @media screen and (min-width: 30em) {
   .autogrid img:not(.announcement img) {border: 4px solid var(--clr-two); border-radius: 20px;}
   .autogrid img:hover:not(.announcement img):not(.home img) {border: 4px solid var(--clr-three);}
-  .work-grid-item:has(figcaption:hover) img {border: 4px solid var(--clr-three); brightness(0.60); transition: all .3s;}
+  .work-grid-item:has(figcaption:hover) img {border: 4px solid var(--clr-three); filter: brightness(0.60); transition: all .3s;}
 }
 
 .announcement a {border: 2px solid var(--clr-three);}
