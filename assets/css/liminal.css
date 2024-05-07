@@ -430,6 +430,8 @@ h1 + .intro {
   font-family: Montserrat, Helvetica, Arial, sans-serif;
 }
 
+.announcement ul {margin-right: 1.5em;}
+
 @media all and (min-width: 50em) {
     ul.staff-textual {margin-left: 2.5em;}
 }
