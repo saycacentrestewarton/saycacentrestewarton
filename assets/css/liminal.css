@@ -636,6 +636,7 @@ blockquote:last-child {
   padding: .3rem;
   color: var(--clr-special-text);
   letter-spacing: inherit;
+  white-space: wrap;
   background: none;
   border: 0;
   border-radius: 0;
